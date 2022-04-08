@@ -7,7 +7,6 @@
 }
 
 
-
 .loc_text{
    color: black;
     
@@ -61,3 +60,25 @@ margin-left: 3rem;
 .dropdown-item:hover{
     background-color: rgb(255, 191, 0);
 }
+
+/* phone media quiries */
+@media screen and (max-width: 480px) {
+    #logo{
+margin-left: 0;
+margin-right: 0;
+width: 80%;
+    }
+
+    .container{
+        margin-left: 0;
+    }
+
+    i{
+        margin-right: 4rem;
+    }
+
+    .nav-link{
+        margin-left: 9rem;
+        font-size: 1.2rem;
+    }
+  }
