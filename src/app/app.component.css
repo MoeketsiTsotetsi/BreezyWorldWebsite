@@ -62,9 +62,9 @@ margin-left: 3rem;
 }
 
 /* phone media quiries */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px)  {
     #logo{
-margin-left: 0;
+margin-left: 0.2rem;
 margin-right: 0;
 width: 80%;
     }
@@ -74,11 +74,81 @@ width: 80%;
     }
 
     i{
-        margin-right: 4rem;
+        margin-right: 4.5rem;
     }
 
     .nav-link{
         margin-left: 9rem;
         font-size: 1.2rem;
+        font-weight: bold;
     }
+
+    .bottom-nav i{
+        margin-right: 0.5rem; 
+         margin-left: 1rem;
+         
+    }
+
+    .loc_text{
+        font-size: 1.67rem;
+    }
+
+    
   }
+
+
+  /* tablet responsiveness */
+  @media screen and (max-width: 800px) and (min-width:768px){
+      .container{
+          margin-left: 1.2rem;
+      }
+
+      .nav-link{
+          font-size: 1.9rem;
+          font-weight: bolder;
+      }
+      #home-link{
+          margin-left: -5rem;
+      }
+
+      #purchaseLink,#contact-Link{
+          margin-left: 20rem;
+      }
+
+      #logo{
+          margin-left: 1rem;
+      }
+
+      .d-flex a i{
+          margin-right: 10rem;
+      }
+    }
+
+    @media screen and (min-width:820px) and (max-width:912px) {
+        #logo{
+            margin-left: 1rem;
+        }
+
+        .container{
+            margin-left: 3rem;
+        }
+
+       #home-link{
+           margin-left: -5rem;
+       }
+
+        #purchaseLink, #contact-Link{
+            margin-left: 20rem;
+        }
+
+        .nav-link{
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        .d-flex a i{
+            margin-right: 11rem;
+        }
+    }
+
+      

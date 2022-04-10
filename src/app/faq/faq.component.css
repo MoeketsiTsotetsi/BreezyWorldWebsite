@@ -24,6 +24,39 @@ a{
     padding-left: 20rem;
     background-color: black;
     background: rgba(0, 151, 19, 0.1);
-    width: 80%;
+    width: 90%;
+    height: 80vh;
+    margin-bottom: 2rem;
+}
+
+/* phone media quiries */
+@media screen and (max-width: 480px){
+    .faq-text{
+        padding-left: 0.5rem;
+        padding-bottom: 6rem;
+        align-items: center;
+        margin-left: 1.5rem;
     
+    }
+
+    .faq-text h1{
+       font-size: 1.3rem;
+       margin-left: 2rem;
+    }
+
+    
+
+    body{
+        height: 100vh;
+    }
+
+    
+}
+
+/* tablet responsiveness */
+@media screen and (max-width: 900px) and (min-width:768px){
+    .faq-text{
+        width: 90%;
+        padding-left: 10rem;
+    } 
 }
