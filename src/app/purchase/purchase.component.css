@@ -1,0 +1,16 @@
+#image{
+    margin-top: 1rem;
+    margin-left: .6rem;
+}
+
+.row{
+    margin-top: 1rem;
+}
+
+/* phone responsiveness */
+@media screen and(max-with:480px){
+    #image{
+        margin-top: 0rem;
+        margin-left: 0rem;
+    } 
+}

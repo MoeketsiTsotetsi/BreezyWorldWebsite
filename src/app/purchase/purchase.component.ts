@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { Product } from '../models/product.model';
+import { ProductService } from '../services/product.service';
 
 @Component({
   selector: 'app-purchase',
@@ -6,10 +9,22 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./purchase.component.css']
 })
 export class PurchaseComponent implements OnInit {
-
-  constructor() { }
+  products: Array<Product> = [];
+  constructor(private _productService: ProductService,private router:Router) { }
 
   ngOnInit(): void {
+    this._productService.getProducts().subscribe(result =>{
+      this.products = result
+      console.log(this.products);
+      
+    },error =>{
+      console.log(error);
+      
+    });
+  }
+
+  buyNow(product : any){
+
   }
 
 }

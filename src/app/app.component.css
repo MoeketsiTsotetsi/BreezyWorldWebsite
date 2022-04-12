@@ -146,6 +146,10 @@ width: 80%;
             font-weight: 700;
         }
 
+        .loc_text{
+            font-size: 1.5rem;
+        }
+
         .d-flex a i{
             margin-right: 11rem;
         }
