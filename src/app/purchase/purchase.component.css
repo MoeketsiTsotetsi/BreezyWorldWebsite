@@ -7,6 +7,15 @@
     margin-top: 1rem;
 }
 
+.card{
+    background-color: grey;
+    
+}
+
+table{
+    color: white;
+}
+
 /* phone responsiveness */
 @media screen and(max-with:480px){
     #image{
