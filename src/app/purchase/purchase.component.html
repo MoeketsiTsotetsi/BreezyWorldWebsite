@@ -9,12 +9,10 @@
                         <tbody >
                             <tr>
                                 <td>Product Name:</td>
-                                <td>{{product.name}}</td>
+                                <td id="prodName">{{product.name}}</td>
                             </tr>
-                            <tr>
-                                <td>Product Description:</td>
-                                <td>{{product.description}}</td>
-                            </tr>
+                            
+                           
                             <tr>
                                 <td>Product Price:</td>
                                 <td> R {{product.price}}</td>
@@ -23,11 +21,10 @@
                     </table>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <!-- <a [routerLink]="['/product-detail',product._id]" class="btn btn-sm btn-outline-secondary">View Details</a> -->
-                            <!-- <button type="button" (click)="buyNow(product)" class="btn btn-sm btn-outline-secondary">Buy
-                                Now</button> -->
+                            <a [routerLink]="['/product-detail',product._id]" class="btn btn-sm btn-outline-warning">View More Details</a>
+                            
                         </div>
-                        <!-- <small class="text-muted">{{product.quantity}} items are left.</small> -->
+                        
                     </div>
                 </div>
             </div>

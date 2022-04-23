@@ -16,10 +16,19 @@ table{
     color: white;
 }
 
+
 /* phone responsiveness */
-@media screen and(max-with:480px){
+@media screen and (max-width:480px) {
     #image{
         margin-top: 0rem;
         margin-left: 0rem;
     } 
+    .desc-info{
+        display: none;
+    }
+
+  
 }
+
+
+    

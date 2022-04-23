@@ -15,16 +15,14 @@ export class PurchaseComponent implements OnInit {
   ngOnInit(): void {
     this._productService.getProducts().subscribe(result =>{
       this.products = result
-      console.log(this.products);
-      
     },error =>{
       console.log(error);
       
     });
   }
 
-  buyNow(product : any){
-
+  getProduct(){
+    alert()
   }
 
 }
