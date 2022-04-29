@@ -29,10 +29,11 @@
 
 .carousel-caption h5{
     font-size: 100px;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 .carousel-caption p{
+    font-weight: 200;
     font-size: 18px;
     top: 2rem;
 }

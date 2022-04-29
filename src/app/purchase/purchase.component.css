@@ -1,3 +1,7 @@
+*{
+    font-weight: 300;
+}
+
 #image{
     margin-top: 1rem;
     margin-left: .6rem;
@@ -14,14 +18,17 @@
 
 table{
     color: white;
+    
 }
+
+
 
 
 /* phone responsiveness */
 @media screen and (max-width:480px) {
     #image{
-        margin-top: 0rem;
-        margin-left: 0rem;
+        margin-top: 0.5rem;
+        margin-left: 1rem;
     } 
     .desc-info{
         display: none;

@@ -1,11 +1,114 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
-.prod-image{
-    margin-top: 1rem;
-    width: 60%;
-    height: 50vh;
-    margin-left: 15rem;
+body{
+    background-color: aliceblue;
+}
+
+.card-img-top{
+    height: 60vh;
+}
+
+.card{
+    width: 70%;
+    margin-left: 12rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 200;
+    
+}
+
+.card-body{
+    height: 7vh;
+}
+
+.btn-group{
+    margin-left: 20rem;
+}
+
+.btn{
+    margin-top: 0.4rem;
+    width: 150px;
+    height: 5vh;
+}
+
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.848);
+    color: orange;
+}
+
+/* phone responsiveness */
+@media screen and (max-width:480px) {
+    .card{
+        margin-left: 0.5rem;
+        width: 95%;
+    }
+
+    .btn-group{
+        margin-left: 5rem;
+        
+    }
+
+    .btn{
+        margin-top: 0.4rem;
+        width: 100px;
+        height: 5vh;
+        font-size: 0.7rem;
+    }
+    
+}
+
+/* tablet responsiveness */
+@media screen and (min-width:500px) and (max-width:800px) {
+    .card{
+        width: 85%;
+        margin-left: 3.5rem;
+    }
+
+    .card-body h5{
+        font-weight: 600;
+        font-size: 1.7rem;
+    }
+
+    .card-body p{
+        font-size: 1.3rem;
+    }
+
+    li{
+        font-size: 1.3rem;
+    }
+
+    .btn-group{
+        margin-top: 0.25rem;
+        margin-left: 10rem;
+    }
+}
+
+@media screen and (min-width:819px) and (max-width:990px) {
+    .card{
+        margin-left: 3rem;
+        width: 90%;
+        margin-top: 2rem;
+    }
+
+    .card-body h5{
+        font-weight: 600;
+        font-size: 1.7rem;
+    }
+
+    .card-body p{
+        font-size: 1.6rem;
+    }
+
+    li{
+        font-size: 2rem;
+    }
+
+    .btn-group{
+        margin-top: 0.25rem;
+        margin-left: 10rem;
+    }
 }

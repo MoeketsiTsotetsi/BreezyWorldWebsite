@@ -1,20 +1,17 @@
-<div class="prod-detail">
-    <img class="prod-image" src="{{product.image}}" alt="product image">
-    <table class="table table-striped">
-      <tbody>
-
-        <tr>
-            <td>Name</td>
-            <td>{{product.name}}</td>
-        </tr>
-          <tr>
-              <td>Description</td>
-              <td>{{product.description}}</td>
-          </tr>
-          <tr>
-              <td>Price</td>
-              <td> R {{product.price}}</td>
-          </tr>
-      </tbody>
-    </table>
-</div>
+<div class="card">
+    <img src="../../assets/images/see through coffe table.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title text-center">{{product.name}}</h5>
+      <p class="card-text text-center">{{product.description}}</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item text-center"> R{{product.price}}</li>
+    </ul>
+    <div class="card-body">
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-outline-warning">Get A Qoute</button>
+            <button routerLink="/products" type="button" class="btn btn-outline-warning">Back To Products</button>
+            
+          </div>
+    </div>
+  </div>
