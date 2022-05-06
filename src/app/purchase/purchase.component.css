@@ -2,6 +2,22 @@
     font-weight: 300;
 }
 
+
+
+
+
+.GeneratedMarquee {
+margin-top: 1rem;
+font-size:2em;
+line-height:1.4rem;
+color:black;
+
+}
+
+
+
+
+
 #image{
     margin-top: 1rem;
     margin-left: .6rem;
@@ -34,8 +50,25 @@ table{
     .desc-info{
         display: none;
     }
+    .card {
+     width: 95%;
+     margin-left: 0.5rem;
+    }
 
   
+}
+
+/* tablet responsiveness */
+@media screen and(min-width:500px) and (max-width:720px){
+    
+    
+}
+
+@media screen and (min-width:912px) and (max-width:1024px) {
+    .card{
+        width: 90%;
+        margin-left: 4rem;
+    }
 }
 
 

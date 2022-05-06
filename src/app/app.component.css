@@ -63,19 +63,30 @@ margin-left: 3rem;
 
 /* phone media quiries */
 @media screen and (max-width: 480px)  {
+
+    .nav-item{
+        margin-right: 0;
+    }
+    #navbarSupportedContent{
+        margin-right: 0;
+    }
     #logo{
-margin-left: 0.2rem;
-margin-right: 0;
-width: 80%;
+        margin-left: 0.2rem;
+        margin-right: 0;
+        width: 80%;
     }
 
     .container{
         margin-left: 0;
     }
+    #home-link{
+        margin-left: -16rem;
+    }
 
     i{
-        margin-right: 4.5rem;
+        margin-right: 4.44rem;
     }
+    
 
     .nav-link{
         margin-left: 9rem;
@@ -98,7 +109,12 @@ width: 80%;
   }
 
 
+
+
   /* tablet responsiveness */
+
+    
+
   @media screen and (max-width: 800px) and (min-width:768px){
       .container{
           margin-left: 1.2rem;

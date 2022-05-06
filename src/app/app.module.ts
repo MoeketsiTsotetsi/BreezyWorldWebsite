@@ -9,7 +9,6 @@ import { FaqComponent } from './faq/faq.component';
 import { VoiceUpComponent } from './voice-up/voice-up.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { PromotionComponent } from './promotion/promotion.component';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +18,7 @@ import { PromotionComponent } from './promotion/promotion.component';
     VoiceUpComponent,
     ProductDetailComponent,
     PromotionComponent
+   
   ],
   imports: [
     BrowserModule,

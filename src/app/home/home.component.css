@@ -25,17 +25,20 @@
     bottom: 180px;
     padding-left: 100px;
     padding-right: 100px;
+    
 }
 
 .carousel-caption h5{
     font-size: 100px;
     font-weight: 300;
+    
 }
 
 .carousel-caption p{
     font-weight: 200;
     font-size: 18px;
     top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .slider-btn {
@@ -90,7 +93,7 @@ margin-right: 15px;
   
 
   /* tablet responsiveness */
-  @media screen and (min-width:820px) and (max-width:912px){
+  @media screen and (min-width:820px) and (max-width:911px){
     .carousel-item img{
         height: 100vh;
     }
@@ -98,6 +101,13 @@ margin-right: 15px;
     .carousel-caption h5{
         color: aliceblue;
     }
+  }
+
+  @media screen and (min-width:912px) and (max-width:1024px) {
+      #carouselExampleCaptions{
+          margin-left: -2.5rem;
+          width: 900px;
+      }
   }
 
  
